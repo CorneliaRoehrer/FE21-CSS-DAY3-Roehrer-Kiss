@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nutritionBox {
+    border-style: solid;
+    width: 350px;
+}
+
+/* header with styling starts here */
+#tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#serving {
+    width: 55%;
+}
+
+#milk {
+    width: 60px;
+}
+
+/* styling of rows starts here */
+.nutrient {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boldText {
+    width: 45%;
+}
+
+.nutrientDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offsetText {
+    width: 40%;
+    margin-left: 15px;
+}
