@@ -53,3 +53,28 @@
     width: 40%;
     margin-left: 15px;
 }
+
+.tableLines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 140px;
+}
+
+.column2 {
+    width: 100px;
+}
+
+.column3 {
+    width: 60px;
+}
+
+.column4 {
+    width: 60px;
+}
+
+#fatProtein {
+    text-align: center;
+}
