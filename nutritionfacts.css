@@ -5,7 +5,7 @@
 
 #nutritionBox {
     border-style: solid;
-    width: 350px;
+    width: 370px;
 }
 
 /* header with styling starts here */
@@ -16,11 +16,16 @@
 }
 
 #serving {
-    width: 55%;
+    width: 50%;
 }
 
 #milk {
     width: 60px;
+}
+
+#dailyValue {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* styling of rows starts here */
@@ -31,6 +36,12 @@
 
 .boldText {
     width: 45%;
+    font-weight: bold;
+}
+
+.figures {
+    width: 60px;
+    text-align: right;
 }
 
 .nutrientDetail {
